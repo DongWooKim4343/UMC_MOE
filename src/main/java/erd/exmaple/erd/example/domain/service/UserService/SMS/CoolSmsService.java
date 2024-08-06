@@ -39,7 +39,7 @@ public class CoolSmsService {
             params.put("to", to); // 수신 전화번호
             params.put("from", fromPhoneNumber); // 발신 전화번호
             params.put("type", "sms");
-            params.put("text", "인증번호는 [" + numStr + "] 입니다.");
+            params.put("text", "MOE 인증번호는 [" + numStr + "] 입니다.");
 
             // 메시지 전송
             coolsms.send(params);
